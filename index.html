@@ -1,179 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-            name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
     />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <title>Title</title>
-    <link href="./styles.css" rel="stylesheet"/>
-    <link href="./reset.css" rel="stylesheet"/>
-</head>
-<body>
-<header class="container header center">
-    <img alt="logo" class="header__logo" src="./img/logo.svg">
-    <nav class="navigation">
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="./reset.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="container header center">
+      <img alt="logo" class="header__logo" src="./img/logo.svg" />
+      <nav class="navigation">
         <ul class="navigation__list nav">
-            <li><a class="nav_text-bold" href="#">Home</a></li>
-            <li><a class="nav_text" href="#">Destinations</a></li>
-            <li><a class="nav_text" href="#">About</a></li>
-            <li><a class="nav_text" href="#">Partner</a></li>
+          <li><a class="nav_text-bold" href="#">Home</a></li>
+          <li><a class="nav_text" href="#">Destinations</a></li>
+          <li><a class="nav_text" href="#">About</a></li>
+          <li><a class="nav_text" href="#">Partner</a></li>
         </ul>
-        <button class="navigation__button-first ">Login</button>
-        <button class="navigation__button-last ">Register</button>
-    </nav>
-</header>
-<main class="container main">
-    <div class="travel">
+        <button class="navigation__button-first">Login</button>
+        <button class="navigation__button-last">Register</button>
+      </nav>
+    </header>
+
+    <main class="container main">
+      <div class="travel">
         <section class="travel__section relative head seeker">
-            <img class="absolute__one" alt="bubblebig" src="./img/bubblebig.svg">
-            <img class="absolute__two" alt="bubble" src="./img/bubble.svg">
-            <h1 class="head__text">Explore and Travel</h1>
-            <p class="travel__paragraph">Holiday finder</p>
-            <div class="travel__separator"></div>
-            <form class="seeker__form">
-                <ul class="seeker__form-list select">
-                    <li>
-                        <select class="select__list option" name="city">
-                            <option><span class="option__text">Location</span></option>
-                        </select>
-                    </li>
-                    <li>
-                        <select class="select__list option" id="q" name="city">
-                            <option>Activity</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select class="select__list option" id="w" name="city">
-                            <option>Grade</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select class="select__list option" id="e" name="city">
-                            <option>Date</option>
-                        </select>
-                    </li>
-                </ul>
-            </form>
-            <button type="button" class="seeker__button center">
-                Explore
-            </button>
+          <img
+            class="absolute__one"
+            alt="bubble-big"
+            src="./img/bubblebig.svg"
+          />
+          <img class="absolute__two" alt="bubble" src="./img/bubble.svg" />
+          <h1 class="head__text">Explore and Travel</h1>
+          <p class="travel__paragraph">Holiday finder</p>
+          <div class="travel__separator"></div>
+          <form class="seeker__form" method="get">
+            <ul class="seeker__form-list select">
+              <li>
+                <select class="select__list option" name="city">
+                  <option><span class="option__text">Location</span></option>
+                </select>
+              </li>
+              <li>
+                <select class="select__list option" name="activity">
+                  <option>Activity</option>
+                </select>
+              </li>
+              <li>
+                <select class="select__list option" name="grade">
+                  <option>Grade</option>
+                </select>
+              </li>
+              <li>
+                <select class="select__list option" name="date">
+                  <option>Date</option>
+                </select>
+              </li>
+            </ul>
+            <button type="button" class="seeker__button center">Explore</button>
+          </form>
         </section>
-        <img alt="travel" src="./img/travel.svg">
-    </div>
-    <div class="exploration container">
-        <img alt="world" class="exploration__img" src="./img/world.svg">
+        <img alt="travel" src="./img/travel.svg" />
+      </div>
+
+      <div class="exploration container">
+        <img alt="world" class="exploration__img" src="./img/world.svg" />
         <section class="exploration__world relative lonely">
-            <img class="absolute__four" alt="bubble" src="./img/bubble.svg">
-            <h2 class="lonely__head">A new way to explore the world </h2>
-            <p class="lonely__text">For decades travellers have reached for Lonely Planet books
-                when looking to plan and execute their perfect trip,
-                but now, they can also let Lonely Planet Experiences
-                lead the way
-            </p>
-            <button class="lonely__button center">Learn more</button>
+          <img class="absolute__four" alt="bubble" src="./img/bubble.svg" />
+          <h2 class="lonely__head">A new way to explore the world</h2>
+          <p class="lonely__text">
+            For decades travellers have reached for Lonely Planet books when
+            looking to plan and execute their perfect trip, but now, they can
+            also let Lonely Planet Experiences lead the way
+          </p>
+          <button class="lonely__button center">Learn more</button>
         </section>
-    </div>
-    <div class="route">
+      </div>
+
+      <div class="route">
         <div class="route__block-first relative">
-            <img class="absolute__three" alt="bubble" src="./img/bubble.svg">
-            <h2 class="route__head">Featured destinations</h2>
-            <a href="#"><img alt="also" src="./img/also.svg"></a>
+          <img class="absolute__three" alt="bubble" src="./img/bubble.svg" />
+          <h2 class="route__head">Featured destinations</h2>
+          <a href="#"><img alt="also" src="./img/also.svg" /></a>
         </div>
         <ul class="route__list landscape">
-            <li class="landscape__back-one figcaption">
-                <div class="figcaption__block definition">
-                    <p class="definition__text">
-                        Raja Ampat Indonesia
-                    </p>
-                </div>
-            </li>
-            <li class="landscape__back-two figcaption">
-                <div class="figcaption__block definition">
-                    <p class="definition__text">
-                        Fanjingshan China
-                    </p>
-                </div>
-            </li>
-            <li class="landscape__back-free figcaption">
-                <div class="figcaption__block definition">
-                    <p class="definition__text">
-                        Vevey Switzerland
-                    </p>
-                </div>
-            </li>
-            <li class="landscape__back-four figcaption">
-                <div class="figcaption__block definition">
-                    <p class="definition__text">
-                        Skadar Montenegro
-                    </p>
-                </div>
-            </li>
+          <li class="landscape__back-one figcaption">
+            <div class="figcaption__block definition">
+              <p class="definition__text">Raja Ampat Indonesia</p>
+            </div>
+          </li>
+          <li class="landscape__back-two figcaption">
+            <div class="figcaption__block definition">
+              <p class="definition__text">Fanjingshan China</p>
+            </div>
+          </li>
+          <li class="landscape__back-free figcaption">
+            <div class="figcaption__block definition">
+              <p class="definition__text">Vevey Switzerland</p>
+            </div>
+          </li>
+          <li class="landscape__back-four figcaption">
+            <div class="figcaption__block definition">
+              <p class="definition__text">Skadar Montenegro</p>
+            </div>
+          </li>
         </ul>
-    </div>
-    <div class="guides container">
+      </div>
+
+      <div class="guides container">
         <section class="guides__section">
-            <h2 class="guides__head">Guides by Thousand Sunny</h2>
-            <p class="guides__text">
-                Packed with tips and advice from our on-the-ground experts,
-                our city guides app (iOS and Android) is the ultimate resource
-                before and during a trip.
-            </p>
-            <button class="guides__button center" type="button">Download</button>
+          <h2 class="guides__head">Guides by Thousand Sunny</h2>
+          <p class="guides__text">
+            Packed with tips and advice from our on-the-ground experts, our city
+            guides' app (iOS and Android) is the ultimate resource before and
+            during a trip.
+          </p>
+          <button class="guides__button center" type="button">Download</button>
         </section>
-        <img alt="guides" src="./img/guides.svg">
-    </div>
-</main>
-<footer class="footer container">
-    <div class="footer__inform cellar">
+        <img alt="guides" src="./img/guides.svg" />
+      </div>
+    </main>
+
+    <footer class="footer container">
+      <div class="footer__inform cellar">
         <div class="cellar__plan plan">
-            <img alt="logo" class="plan__logo" src="./img/logo.svg">
-            <p class="plan__text">
-                Plan and book your perfect trip with
-                expert advice, travel tips destination
-                information from us
-            </p>
-            <p class="plan__rights">
-                ©2020 Thousand Sunny. All rights reserved
-            </p>
+          <img alt="logo" class="plan__logo" src="./img/logo.svg" />
+          <p class="plan__text">
+            Plan and book your perfect trip with expert advice, travel tips
+            destination information from us
+          </p>
+          <p class="plan__rights">©2020 Thousand Sunny. All rights reserved</p>
         </div>
         <div class="cellar__address address">
-            <ul class="address__destinations address__margin-first destinations ">
-                <li class="destinations__text-bold">Destinations</li>
-                <li class="destinations__text"><a href="#">Africa</a></li>
-                <li class="destinations__text"><a href="#">Antarctica</a></li>
-                <li class="destinations__text"><a href="#">Asia</a></li>
-                <li class="destinations__text"><a href="#">Europe</a></li>
-                <li class="destinations__text"><a href="#">America</a></li>
-            </ul>
-            <ul class="address__destinations address__margin-last destinations ">
-                <li class="destinations__text-bold">Shop</li>
-                <li class="destinations__text"><a href="#">Destination Guides</a></li>
-                <li class="destinations__text"><a href="#">Pictorial & Gifts</a></li>
-                <li class="destinations__text"><a href="#">Special Offers</a></li>
-                <li class="destinations__text"><a href="#">Delivery Times</a></li>
-                <li class="destinations__text"><a href="#">FAQs</a></li>
-            </ul>
-            <ul class="address__destinations destinations ">
-                <li class="destinations__text-bold">Interests</a></li>
-                <li class="destinations__text"><a href="#">Adventure Travel</a></li>
-                <li class="destinations__text"><a href="#">Art And Culture</a></li>
-                <li class="destinations__text"><a href="#">Wildlife And Nature</a></li>
-                <li class="destinations__text"><a href="#">Family Holidays</a></li>
-                <li class="destinations__text"><a href="#">Food And Drink</a></li>
-            </ul>
+          <ul class="address__destinations address__margin-first destinations">
+            <li class="destinations__text-bold">Destinations</li>
+            <li class="destinations__text"><a href="#">Africa</a></li>
+            <li class="destinations__text"><a href="#">Antarctica</a></li>
+            <li class="destinations__text"><a href="#">Asia</a></li>
+            <li class="destinations__text"><a href="#">Europe</a></li>
+            <li class="destinations__text"><a href="#">America</a></li>
+          </ul>
+          <ul class="address__destinations address__margin-last destinations">
+            <li class="destinations__text-bold">Shop</li>
+            <li class="destinations__text">
+              <a href="#">Destination Guides</a>
+            </li>
+            <li class="destinations__text">
+              <a href="#">Pictorial & Gifts</a>
+            </li>
+            <li class="destinations__text"><a href="#">Special Offers</a></li>
+            <li class="destinations__text"><a href="#">Delivery Times</a></li>
+            <li class="destinations__text"><a href="#">FAQs</a></li>
+          </ul>
+          <ul class="address__destinations destinations">
+            <li class="destinations__text-bold"><a href="#">Interests</a></li>
+            <li class="destinations__text"><a href="#">Adventure Travel</a></li>
+            <li class="destinations__text"><a href="#">Art And Culture</a></li>
+            <li class="destinations__text">
+              <a href="#">Wildlife And Nature</a>
+            </li>
+            <li class="destinations__text"><a href="#">Family Holidays</a></li>
+            <li class="destinations__text"><a href="#">Food And Drink</a></li>
+          </ul>
         </div>
-    </div>
-    <div class="footer__separator "></div>
-    <div class="social container">
-        <a href="#"><img alt="twitter" src="./img/twitter.svg"></a>
-        <a href="#"><img alt="facebook" src="./img/facebook.svg"></a>
-        <a href="#"><img alt="instagram" src="./img/instagram.svg"></a>
-        <a href="#"><img alt="linkedin" src="./img/linkedIn.svg"></a>
-        <a href="#"><img alt="youtube" src="./img/youtube.svg"></a>
-    </div>
-</footer>
-</body>
+      </div>
+
+      <div class="footer__separator"></div>
+      <div class="social container">
+        <a href="#"><img alt="twitter" src="./img/twitter.svg" /></a>
+        <a href="#"><img alt="facebook" src="./img/facebook.svg" /></a>
+        <a href="#"><img alt="instagram" src="./img/instagram.svg" /></a>
+        <a href="#"><img alt="linkedin" src="./img/linkedIn.svg" /></a>
+        <a href="#"><img alt="youtube" src="./img/youtube.svg" /></a>
+      </div>
+    </footer>
+  </body>
 </html>
